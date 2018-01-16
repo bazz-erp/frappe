@@ -30,6 +30,9 @@
 					<i class="fa fa-search-plus"></i>
 				</button>
 			</div>
+			{% if (data.doctype == "Item") { %}
+				{%= __("Total Projected Qty") %}:<span class="list-id"> {{ data.total_projected_qty }}</span>
+				{% } %}
 		</a>
 	</div>
 	<div class="image-view-footer hide">
