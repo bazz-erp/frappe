@@ -126,6 +126,7 @@ frappe.dom = {
 				.on("click", function() {
 					if (cur_frm && cur_frm.cur_grid) {
 						cur_frm.cur_grid.toggle_view();
+						cur_frm.refresh(); //reset the buttons of the row
 						return false;
 					}
 				})
