@@ -19,7 +19,7 @@ frappe.ui.form.GridRow = Class.extend({
 				if(me.grid.allow_on_grid_editing() && me.grid.is_editable()) {
 					// pass
 				} else {
-					if (e.target.id == "_operation"){
+					if (e.target.id == "_operation_send" || e.target.id == "_operation_receive"){
 						// pass
 					} else{
 						me.toggle_view();
