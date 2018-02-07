@@ -10,7 +10,6 @@ frappe.ui.form.GridRow = Class.extend({
 	},
 	make: function() {
 		var me = this;
-
 		this.wrapper = $('<div class="grid-row"></div>').appendTo(this.parent).data("grid_row", this);
 		this.row = $('<div class="data-row row"></div>').appendTo(this.wrapper)
 			.on("click", function(e) {
@@ -20,8 +19,12 @@ frappe.ui.form.GridRow = Class.extend({
 				if(me.grid.allow_on_grid_editing() && me.grid.is_editable()) {
 					// pass
 				} else {
-					me.toggle_view();
-					return false;
+					if (e.target.id == "_operation_send" || e.target.id == "_operation_receive"){
+						// pass
+					} else{
+						me.toggle_view();
+						return false;
+                    }
 				}
 			});
 
