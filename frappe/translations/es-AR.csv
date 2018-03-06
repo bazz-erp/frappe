@@ -1645,7 +1645,7 @@ apps/frappe/frappe/public/js/frappe/ui/toolbar/awesome_bar.js +138,Open a module
 apps/frappe/frappe/www/qrcode.html +13,Open your authentication app on your mobile phone.,Open your authentication app on your mobile phone.
 apps/frappe/frappe/public/js/frappe/ui/toolbar/search_utils.js +217,Open {0},Abrir {0}
 DocType: Communication,Opened,Abierto
-DocType: Authentication Log,Operation,Operación
+DocType: Authentication Log,Operation,Operation
 apps/frappe/frappe/utils/data.py +760,Operator must be one of {0},El Operador debe ser uno de {0}
 apps/frappe/frappe/custom/doctype/custom_field/custom_field.js +63,Option 1,Opción 1
 apps/frappe/frappe/custom/doctype/custom_field/custom_field.js +63,Option 2,Opción 2
