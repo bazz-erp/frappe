@@ -351,7 +351,8 @@ frappe.views.ListView = frappe.ui.BaseList.extend({
 		var me = this;
 		// init list
 		this.make({
-			method: 'frappe.desk.reportview.get',
+			// BAZZ - source of data now can be modified by adding method in doctype_list.js file
+			method: this.list_renderer.settings.method ? this.list_renderer.settings.method: 'frappe.desk.reportview.get',
 			save_user_settings: true,
 			get_args: this.get_args,
 			parent: this.wrapper,
