@@ -20,7 +20,7 @@ For e.g. 1 USD = 100 Cent","1 Currency = [?] Fraction
 For e.g. 1 USD = 100 Cent"
 apps/frappe/frappe/website/doctype/blog_post/blog_post.py +78,1 comment,1 comentario
 apps/frappe/frappe/public/js/frappe/misc/pretty_date.js +48,1 hour ago,Hace una hora
-apps/frappe/frappe/public/js/frappe/list/list_view.js +805,1 item selected,1 elemento seleccionado
+apps/frappe/frappe/public/js/frappe/list/list_view.js +806,1 item selected,1 elemento seleccionado
 apps/frappe/frappe/public/js/frappe/misc/pretty_date.js +46,1 minute ago,Hace un minuto
 apps/frappe/frappe/utils/data.py +572,1 month ago,Hace 1 mes
 apps/frappe/frappe/templates/emails/feedback_request_url.html +8,1 star being lowest & 5 stars being highest rating,1 estrella es más bajo y 5 estrellas es  la calificación más alta
@@ -121,7 +121,7 @@ apps/frappe/frappe/config/setup.py +240,Add custom forms.,Agregar formularios pe
 apps/frappe/frappe/config/setup.py +235,Add custom javascript to forms.,Añadir javascript personalizado a los formularios.
 apps/frappe/frappe/config/setup.py +224,Add fields to forms.,Agregar campos a los formularios.
 DocType: Website Theme,"Add the name of a ""Google Web Font"" e.g. ""Open Sans""","Añadir el nombre de ""Google Web Fonts"" por ejemplo ""Open Sans"""
-apps/frappe/frappe/public/js/frappe/list/list_view.js +626,Add to Desktop,Añadir a escritorio
+apps/frappe/frappe/public/js/frappe/list/list_view.js +627,Add to Desktop,Añadir a escritorio
 apps/frappe/frappe/public/js/frappe/form/footer/assign_to.js +134,Add to To Do,Añadir a Tareas
 apps/frappe/frappe/core/page/desktop/desktop.py +13,"Add your Employees so you can manage leaves, expenses and payroll","Añada sus empleados para que pueda administrar permisos, gastos y nómina"
 apps/frappe/frappe/config/setup.py +246,Add your own Tag Categories,Añadir sus propias categorias de etiquetas
@@ -235,7 +235,7 @@ apps/frappe/frappe/core/page/permission_manager/permission_manager_help.html +11
 apps/frappe/frappe/public/js/frappe/views/reports/reportview.js +664,Ascending,Ascendente
 DocType: Address,Assam,Assam
 apps/frappe/frappe/public/js/frappe/form/templates/form_sidebar.html +44,Assign,Asignar
-apps/frappe/frappe/public/js/frappe/list/list_view.js +643,Assign To,Asignar a
+apps/frappe/frappe/public/js/frappe/list/list_view.js +644,Assign To,Asignar a
 apps/frappe/frappe/custom/doctype/customize_form/customize_form.js +226,Assign a permission level to the field.,Asignar un nivel de permisos para el campo.
 apps/frappe/frappe/public/js/frappe/form/footer/assign_to.js +138,Assign to me,Asignar a mí
 DocType: Communication,Assigned,Asignado
@@ -532,7 +532,7 @@ apps/frappe/frappe/config/setup.py +244,Custom Tags,Etiquetas Personalizadas
 apps/frappe/frappe/config/setup.py +228,Custom Translations,Traducciones Personalizadas
 DocType: DocType,Custom?,Personalizado?
 apps/frappe/frappe/modules/utils.py +76,Customizations exported to {0},Customizaciones exportadas a {0}
-apps/frappe/frappe/public/js/frappe/list/list_view.js +615,Customize,Personalización
+apps/frappe/frappe/public/js/frappe/list/list_view.js +616,Customize,Personalización
 DocType: Customize Form,Customize Form,Personalizar Formulario
 DocType: Customize Form Field,Customize Form Field,Personalizar campos de formulario
 DocType: Customize Form,"Customize Label, Print Hide, Default etc.","Personalizar etiquetas, ocultar campos, predeterminados, etc"
@@ -592,7 +592,7 @@ DocType: Communication,Delayed,Retrasado
 DocType: Custom DocPerm,Delete,Eliminar
 apps/frappe/frappe/public/js/frappe/form/footer/timeline.js +575,Delete comment?,¿Eliminar comentario?
 apps/frappe/frappe/email/doctype/email_unsubscribe/email_unsubscribe.py +16,Delete this record to allow sending to this email address,Eliminar este registro para permitir el envío a esta dirección de correo electrónico
-apps/frappe/frappe/public/js/frappe/list/list_view.js +854,Delete {0} items permanently?,Eliminar {0} artículos de forma permanente?
+apps/frappe/frappe/public/js/frappe/list/list_view.js +855,Delete {0} items permanently?,Eliminar {0} artículos de forma permanente?
 DocType: Communication,Deleted,Eliminado
 DocType: Deleted Document,Deleted DocType,DocType eliminado
 DocType: Deleted Document,Deleted Document,documento eliminado
@@ -704,7 +704,7 @@ apps/frappe/frappe/public/js/frappe/form/templates/grid_form.html +25,ESC,ESC
 apps/frappe/frappe/printing/page/print_format_builder/print_format_builder_start.html +8,Edit,Editar
 apps/frappe/frappe/templates/emails/auto_email_report.html +48,Edit Auto Email Report Settings,Editar configuración de informes de correo electrónico automático
 apps/frappe/frappe/printing/page/print_format_builder/print_format_builder.js +679,Edit Custom HTML,Editar HTML personalizado
-apps/frappe/frappe/public/js/frappe/list/list_view.js +632,Edit DocType,Editar DocType
+apps/frappe/frappe/public/js/frappe/list/list_view.js +633,Edit DocType,Editar DocType
 apps/frappe/frappe/public/js/frappe/ui/filters/filters.js +447,Edit Filter,Editar filtro
 apps/frappe/frappe/core/doctype/file/file_list.js +80,Edit Folder,Editar carpeta
 apps/frappe/frappe/printing/doctype/print_format/print_format.js +26,Edit Format,Editar formato
@@ -1645,7 +1645,7 @@ apps/frappe/frappe/public/js/frappe/ui/toolbar/awesome_bar.js +138,Open a module
 apps/frappe/frappe/www/qrcode.html +13,Open your authentication app on your mobile phone.,Open your authentication app on your mobile phone.
 apps/frappe/frappe/public/js/frappe/ui/toolbar/search_utils.js +217,Open {0},Abrir {0}
 DocType: Communication,Opened,Abierto
-DocType: Authentication Log,Operation,Operation
+DocType: Authentication Log,Operation,Operacion
 apps/frappe/frappe/utils/data.py +760,Operator must be one of {0},El Operador debe ser uno de {0}
 apps/frappe/frappe/custom/doctype/custom_field/custom_field.js +63,Option 1,Opción 1
 apps/frappe/frappe/custom/doctype/custom_field/custom_field.js +63,Option 2,Opción 2
@@ -2140,10 +2140,10 @@ apps/frappe/frappe/printing/page/print_format_builder/print_format_builder.js +1
 apps/frappe/frappe/public/js/frappe/views/treeview.js +204,Select a group node first.,Seleccione primero un nodo de grupo
 apps/frappe/frappe/printing/page/print_format_builder/print_format_builder_start.html +2,Select an existing format to edit or start a new format.,Seleccione un formato existente para editarlo o puede crear un nuevo formato.
 DocType: Website Settings,Select an image of approx width 150px with a transparent background for best results.,Seleccione una imagen de ancho aprox 150px con fondo transparente para obtener mejores resultados.
-apps/frappe/frappe/public/js/frappe/list/list_view.js +734,Select atleast 1 record for printing,Seleccionar al menos 1 registro para la impresión
+apps/frappe/frappe/public/js/frappe/list/list_view.js +735,Select atleast 1 record for printing,Seleccionar al menos 1 registro para la impresión
 apps/frappe/frappe/public/js/frappe/form/controls/text_editor.js +271,Select from existing attachments,Seleccione desde los archivos adjuntos existentes
 apps/frappe/frappe/public/js/frappe/views/calendar/calendar.js +67,Select or drag across time slots to create a new event.,Seleccione o arrastre a través de los intervalos de tiempo para crear un nuevo evento.
-apps/frappe/frappe/public/js/frappe/list/list_view.js +665,Select records for assignment,Seleccione los registros para la asignación
+apps/frappe/frappe/public/js/frappe/list/list_view.js +666,Select records for assignment,Seleccione los registros para la asignación
 DocType: Footer Item,"Select target = ""_blank"" to open in a new page.","Seleccione el objetivo = ""_blank"" para abrir en una nueva página."
 apps/frappe/frappe/public/js/frappe/form/footer/attachments.js +252,Select template,Seleccionar Plantilla
 DocType: Custom Field,Select the label after which you want to insert new field.,Seleccione la etiqueta con la cual desea insertar el nuevo campo.
@@ -2718,7 +2718,7 @@ apps/frappe/frappe/printing/page/print_format_builder/print_format_builder.js +4
 apps/frappe/frappe/public/js/frappe/views/reports/grid_report.js +851,With Groups,Con Grupos
 apps/frappe/frappe/public/js/frappe/views/reports/grid_report.js +852,With Ledgers,Con libros de contabilidad
 apps/frappe/frappe/public/js/frappe/form/print.js +252,With Letter head,Con Membrete
-apps/frappe/frappe/public/js/frappe/list/list_view.js +705,With Letterhead,Con Membrete
+apps/frappe/frappe/public/js/frappe/list/list_view.js +706,With Letterhead,Con Membrete
 DocType: Communication,Workflow,Flujos de Trabajo
 DocType: Workflow Action,Workflow Action,Acciones de flujos de trabajo
 DocType: Workflow Action,Workflow Action Master,Flujo de trabajo de Acción Maestro
@@ -2788,7 +2788,7 @@ apps/frappe/frappe/model/rename_doc.py +127,You need write permission to rename,
 apps/frappe/frappe/templates/includes/contact.js +17,"You seem to have written your name instead of your email. \
 				Please enter a valid email address so that we can get back.","You seem to have written your name instead of your email. \
 				Please enter a valid email address so that we can get back."
-apps/frappe/frappe/public/js/frappe/list/list_view.js +696,You selected Draft or Cancelled documents,Seleccionó documentos en Borrador o Cancelados
+apps/frappe/frappe/public/js/frappe/list/list_view.js +697,You selected Draft or Cancelled documents,Seleccionó documentos en Borrador o Cancelados
 apps/frappe/frappe/desk/page/setup_wizard/setup_wizard.js +476,Your Country,Tu País
 apps/frappe/frappe/templates/includes/comments/comments.html +39,Your Email Address,Your Email Address
 apps/frappe/frappe/www/feedback.html +114,Your Feedback for document {0} is saved successfully,Su opinión de documento {0} se guarda correctamente
@@ -3069,7 +3069,7 @@ apps/frappe/frappe/public/js/frappe/list/list_permission_footer.html +12,{0} is 
 apps/frappe/frappe/printing/doctype/print_format/print_format.py +80,{0} is now default print format for {1} doctype,{0} ahora es el formato de impresión predeterminado para el doctype {1}
 apps/frappe/frappe/email/doctype/email_account/email_account.py +127,{0} is required,{0} es requerido
 apps/frappe/frappe/desk/reportview.py +108,{0} is saved,{0} guardado
-apps/frappe/frappe/public/js/frappe/list/list_view.js +806,{0} items selected,{0} elementos seleccionados
+apps/frappe/frappe/public/js/frappe/list/list_view.js +807,{0} items selected,{0} elementos seleccionados
 apps/frappe/frappe/core/doctype/communication/feed.py +58,{0} logged in,{0} conectado
 apps/frappe/frappe/core/doctype/communication/feed.py +63,{0} logged out: {1},{0} desconectado: {1}
 apps/frappe/frappe/core/doctype/communication/comment.py +85,{0} mentioned you in a comment,{0} mentioned you in a comment
